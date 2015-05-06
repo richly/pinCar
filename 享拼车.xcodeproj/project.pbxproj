@@ -134,6 +134,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843468851AF9FDCE00BCF0A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C03D661AF9E2870099DDAC /* NotificationCenterViewController.swift */,
+				84C03D671AF9E2870099DDAC /* PinSheetCenterViewController.swift */,
+				84C03D601AF9E2870099DDAC /* MainViewController.swift */,
+				84C03D681AF9E2870099DDAC /* PinViewController.swift */,
+				84C03D5C1AF9E2870099DDAC /* ChatViewController.swift */,
+				84C03D591AF9E2870099DDAC /* AboutUsViewController.swift */,
+				84C03D691AF9E2870099DDAC /* PrivateDataViewController.swift */,
+				84C03D641AF9E2870099DDAC /* MyWalletViewController.swift */,
+				84C03D6A1AF9E2870099DDAC /* SettingViewController.swift */,
+				84C03D3B1AF9E1EB0099DDAC /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		843468861AF9FDEC00BCF0A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C03D5B1AF9E2870099DDAC /* CarpoolHistoryCell.swift */,
+				84C03D5D1AF9E2870099DDAC /* CheckSegue.swift */,
+				84C03D5E1AF9E2870099DDAC /* HeaderView.swift */,
+				84C03D5F1AF9E2870099DDAC /* Hexagon.swift */,
+				84C03D611AF9E2870099DDAC /* MenuHeaderCell.swift */,
+				84C03D621AF9E2870099DDAC /* MenuItemCell.swift */,
+				84C03D631AF9E2870099DDAC /* MiddleView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		843468871AF9FDF900BCF0A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		843468881AF9FE0200BCF0A5 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				84C03D5A1AF9E2870099DDAC /* AppConstant.swift */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
 		84C03D281AF9E1EB0099DDAC = {
 			isa = PBXGroup;
 			children = (
@@ -155,26 +201,11 @@
 		84C03D331AF9E1EB0099DDAC /* 享拼车 */ = {
 			isa = PBXGroup;
 			children = (
+				843468881AF9FE0200BCF0A5 /* Command */,
+				843468871AF9FDF900BCF0A5 /* Model */,
+				843468861AF9FDEC00BCF0A5 /* View */,
+				843468851AF9FDCE00BCF0A5 /* Controller */,
 				84C03D361AF9E1EB0099DDAC /* AppDelegate.swift */,
-				84C03D591AF9E2870099DDAC /* AboutUsViewController.swift */,
-				84C03D5A1AF9E2870099DDAC /* AppConstant.swift */,
-				84C03D5B1AF9E2870099DDAC /* CarpoolHistoryCell.swift */,
-				84C03D5C1AF9E2870099DDAC /* ChatViewController.swift */,
-				84C03D5D1AF9E2870099DDAC /* CheckSegue.swift */,
-				84C03D5E1AF9E2870099DDAC /* HeaderView.swift */,
-				84C03D5F1AF9E2870099DDAC /* Hexagon.swift */,
-				84C03D601AF9E2870099DDAC /* MainViewController.swift */,
-				84C03D611AF9E2870099DDAC /* MenuHeaderCell.swift */,
-				84C03D621AF9E2870099DDAC /* MenuItemCell.swift */,
-				84C03D631AF9E2870099DDAC /* MiddleView.swift */,
-				84C03D641AF9E2870099DDAC /* MyWalletViewController.swift */,
-				84C03D651AF9E2870099DDAC /* NormalNavigationBar.swift */,
-				84C03D661AF9E2870099DDAC /* NotificationCenterViewController.swift */,
-				84C03D671AF9E2870099DDAC /* PinSheetCenterViewController.swift */,
-				84C03D681AF9E2870099DDAC /* PinViewController.swift */,
-				84C03D691AF9E2870099DDAC /* PrivateDataViewController.swift */,
-				84C03D6A1AF9E2870099DDAC /* SettingViewController.swift */,
-				84C03D3B1AF9E1EB0099DDAC /* ViewController.swift */,
 				84C03D3D1AF9E1EB0099DDAC /* Main.storyboard */,
 				84C03D401AF9E1EB0099DDAC /* Images.xcassets */,
 				84C03D421AF9E1EB0099DDAC /* LaunchScreen.xib */,
@@ -352,7 +383,6 @@
 				84C03D6B1AF9E2870099DDAC /* AboutUsViewController.swift in Sources */,
 				84C03D781AF9E2870099DDAC /* NotificationCenterViewController.swift in Sources */,
 				84C03D721AF9E2870099DDAC /* MainViewController.swift in Sources */,
-				84C03D771AF9E2870099DDAC /* NormalNavigationBar.swift in Sources */,
 				84C03D701AF9E2870099DDAC /* HeaderView.swift in Sources */,
 				84C03D7C1AF9E2870099DDAC /* SettingViewController.swift in Sources */,
 				84C03D6C1AF9E2870099DDAC /* AppConstant.swift in Sources */,
@@ -563,6 +593,7 @@
 				84C03D551AF9E1EB0099DDAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84C03D561AF9E1EB0099DDAC /* Build configuration list for PBXNativeTarget "享拼车Tests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +602,7 @@
 				84C03D581AF9E1EB0099DDAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
