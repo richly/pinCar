@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        UIApplication.sharedApplication().setStatusBarStyle( UIStatusBarStyle.LightContent, animated: true)
+        var rootNav = UINavigationController(rootViewController: MainViewController())
+        rootNav.navigationBar.opaque = false
+        rootNav.navigationBarHidden = true
+        //        rootNav.navigationBar.barTintColor = UIColor(red: 134, green: 196, blue: 77, alpha: 1)
+        //        rootNav.navigationBar.tintColor = UIColor(red: 134, green: 196, blue: 77, alpha: 1)
+        self.window?.rootViewController = rootNav
         return true
     }
 

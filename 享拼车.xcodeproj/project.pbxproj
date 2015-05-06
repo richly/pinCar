@@ -14,6 +14,44 @@
 		84C03D411AF9E1EB0099DDAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D401AF9E1EB0099DDAC /* Images.xcassets */; };
 		84C03D441AF9E1EB0099DDAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D421AF9E1EB0099DDAC /* LaunchScreen.xib */; };
 		84C03D501AF9E1EB0099DDAC /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D4F1AF9E1EB0099DDAC /* ___Tests.swift */; };
+		84C03D6B1AF9E2870099DDAC /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D591AF9E2870099DDAC /* AboutUsViewController.swift */; };
+		84C03D6C1AF9E2870099DDAC /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D5A1AF9E2870099DDAC /* AppConstant.swift */; };
+		84C03D6D1AF9E2870099DDAC /* CarpoolHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D5B1AF9E2870099DDAC /* CarpoolHistoryCell.swift */; };
+		84C03D6E1AF9E2870099DDAC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D5C1AF9E2870099DDAC /* ChatViewController.swift */; };
+		84C03D6F1AF9E2870099DDAC /* CheckSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D5D1AF9E2870099DDAC /* CheckSegue.swift */; };
+		84C03D701AF9E2870099DDAC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D5E1AF9E2870099DDAC /* HeaderView.swift */; };
+		84C03D711AF9E2870099DDAC /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D5F1AF9E2870099DDAC /* Hexagon.swift */; };
+		84C03D721AF9E2870099DDAC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D601AF9E2870099DDAC /* MainViewController.swift */; };
+		84C03D731AF9E2870099DDAC /* MenuHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D611AF9E2870099DDAC /* MenuHeaderCell.swift */; };
+		84C03D741AF9E2870099DDAC /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D621AF9E2870099DDAC /* MenuItemCell.swift */; };
+		84C03D751AF9E2870099DDAC /* MiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D631AF9E2870099DDAC /* MiddleView.swift */; };
+		84C03D761AF9E2870099DDAC /* MyWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D641AF9E2870099DDAC /* MyWalletViewController.swift */; };
+		84C03D771AF9E2870099DDAC /* NormalNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D651AF9E2870099DDAC /* NormalNavigationBar.swift */; };
+		84C03D781AF9E2870099DDAC /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D661AF9E2870099DDAC /* NotificationCenterViewController.swift */; };
+		84C03D791AF9E2870099DDAC /* PinSheetCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D671AF9E2870099DDAC /* PinSheetCenterViewController.swift */; };
+		84C03D7A1AF9E2870099DDAC /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D681AF9E2870099DDAC /* PinViewController.swift */; };
+		84C03D7B1AF9E2870099DDAC /* PrivateDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D691AF9E2870099DDAC /* PrivateDataViewController.swift */; };
+		84C03D7C1AF9E2870099DDAC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D6A1AF9E2870099DDAC /* SettingViewController.swift */; };
+		84C03D911AF9E2C30099DDAC /* 04earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D7D1AF9E2C30099DDAC /* 04earth.png */; };
+		84C03D921AF9E2C30099DDAC /* 再拼一次.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D7E1AF9E2C30099DDAC /* 再拼一次.png */; };
+		84C03D931AF9E2C30099DDAC /* again.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D7F1AF9E2C30099DDAC /* again.png */; };
+		84C03D941AF9E2C30099DDAC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D801AF9E2C30099DDAC /* back.png */; };
+		84C03D951AF9E2C30099DDAC /* backItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D811AF9E2C30099DDAC /* backItem.png */; };
+		84C03D961AF9E2C30099DDAC /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D821AF9E2C30099DDAC /* comment.png */; };
+		84C03D971AF9E2C30099DDAC /* free-flat-halloween-icons-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D831AF9E2C30099DDAC /* free-flat-halloween-icons-06.png */; };
+		84C03D981AF9E2C30099DDAC /* free-flat-halloween-icons-86.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D841AF9E2C30099DDAC /* free-flat-halloween-icons-86.png */; };
+		84C03D991AF9E2C30099DDAC /* greenPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D851AF9E2C30099DDAC /* greenPoint.png */; };
+		84C03D9A1AF9E2C30099DDAC /* hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D861AF9E2C30099DDAC /* hexagon.png */; };
+		84C03D9B1AF9E2C30099DDAC /* ic_dh.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D871AF9E2C30099DDAC /* ic_dh.png */; };
+		84C03D9C1AF9E2C30099DDAC /* ic_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D881AF9E2C30099DDAC /* ic_plus.png */; };
+		84C03D9D1AF9E2C30099DDAC /* mail-boxes.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D891AF9E2C30099DDAC /* mail-boxes.png */; };
+		84C03D9E1AF9E2C30099DDAC /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D8A1AF9E2C30099DDAC /* menu.png */; };
+		84C03D9F1AF9E2C30099DDAC /* privateData.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D8B1AF9E2C30099DDAC /* privateData.png */; };
+		84C03DA01AF9E2C30099DDAC /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D8C1AF9E2C30099DDAC /* question.png */; };
+		84C03DA11AF9E2C30099DDAC /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D8D1AF9E2C30099DDAC /* setting.png */; };
+		84C03DA21AF9E2C30099DDAC /* titlebar_back_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D8E1AF9E2C30099DDAC /* titlebar_back_green.png */; };
+		84C03DA31AF9E2C30099DDAC /* titlebar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D8F1AF9E2C30099DDAC /* titlebar_background.png */; };
+		84C03DA41AF9E2C30099DDAC /* yen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C03D901AF9E2C30099DDAC /* yen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +76,44 @@
 		84C03D491AF9E1EB0099DDAC /* 享拼车Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "享拼车Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C03D4E1AF9E1EB0099DDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C03D4F1AF9E1EB0099DDAC /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		84C03D591AF9E2870099DDAC /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		84C03D5A1AF9E2870099DDAC /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		84C03D5B1AF9E2870099DDAC /* CarpoolHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarpoolHistoryCell.swift; sourceTree = "<group>"; };
+		84C03D5C1AF9E2870099DDAC /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		84C03D5D1AF9E2870099DDAC /* CheckSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckSegue.swift; sourceTree = "<group>"; };
+		84C03D5E1AF9E2870099DDAC /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		84C03D5F1AF9E2870099DDAC /* Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		84C03D601AF9E2870099DDAC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84C03D611AF9E2870099DDAC /* MenuHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderCell.swift; sourceTree = "<group>"; };
+		84C03D621AF9E2870099DDAC /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		84C03D631AF9E2870099DDAC /* MiddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleView.swift; sourceTree = "<group>"; };
+		84C03D641AF9E2870099DDAC /* MyWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWalletViewController.swift; sourceTree = "<group>"; };
+		84C03D651AF9E2870099DDAC /* NormalNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalNavigationBar.swift; sourceTree = "<group>"; };
+		84C03D661AF9E2870099DDAC /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		84C03D671AF9E2870099DDAC /* PinSheetCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinSheetCenterViewController.swift; sourceTree = "<group>"; };
+		84C03D681AF9E2870099DDAC /* PinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		84C03D691AF9E2870099DDAC /* PrivateDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateDataViewController.swift; sourceTree = "<group>"; };
+		84C03D6A1AF9E2870099DDAC /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		84C03D7D1AF9E2C30099DDAC /* 04earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04earth.png; sourceTree = "<group>"; };
+		84C03D7E1AF9E2C30099DDAC /* 再拼一次.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "再拼一次.png"; sourceTree = "<group>"; };
+		84C03D7F1AF9E2C30099DDAC /* again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = again.png; sourceTree = "<group>"; };
+		84C03D801AF9E2C30099DDAC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		84C03D811AF9E2C30099DDAC /* backItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backItem.png; sourceTree = "<group>"; };
+		84C03D821AF9E2C30099DDAC /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		84C03D831AF9E2C30099DDAC /* free-flat-halloween-icons-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-flat-halloween-icons-06.png"; sourceTree = "<group>"; };
+		84C03D841AF9E2C30099DDAC /* free-flat-halloween-icons-86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-flat-halloween-icons-86.png"; sourceTree = "<group>"; };
+		84C03D851AF9E2C30099DDAC /* greenPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenPoint.png; sourceTree = "<group>"; };
+		84C03D861AF9E2C30099DDAC /* hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexagon.png; sourceTree = "<group>"; };
+		84C03D871AF9E2C30099DDAC /* ic_dh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_dh.png; sourceTree = "<group>"; };
+		84C03D881AF9E2C30099DDAC /* ic_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_plus.png; sourceTree = "<group>"; };
+		84C03D891AF9E2C30099DDAC /* mail-boxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-boxes.png"; sourceTree = "<group>"; };
+		84C03D8A1AF9E2C30099DDAC /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		84C03D8B1AF9E2C30099DDAC /* privateData.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = privateData.png; sourceTree = "<group>"; };
+		84C03D8C1AF9E2C30099DDAC /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		84C03D8D1AF9E2C30099DDAC /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		84C03D8E1AF9E2C30099DDAC /* titlebar_back_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebar_back_green.png; sourceTree = "<group>"; };
+		84C03D8F1AF9E2C30099DDAC /* titlebar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebar_background.png; sourceTree = "<group>"; };
+		84C03D901AF9E2C30099DDAC /* yen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +156,24 @@
 			isa = PBXGroup;
 			children = (
 				84C03D361AF9E1EB0099DDAC /* AppDelegate.swift */,
+				84C03D591AF9E2870099DDAC /* AboutUsViewController.swift */,
+				84C03D5A1AF9E2870099DDAC /* AppConstant.swift */,
+				84C03D5B1AF9E2870099DDAC /* CarpoolHistoryCell.swift */,
+				84C03D5C1AF9E2870099DDAC /* ChatViewController.swift */,
+				84C03D5D1AF9E2870099DDAC /* CheckSegue.swift */,
+				84C03D5E1AF9E2870099DDAC /* HeaderView.swift */,
+				84C03D5F1AF9E2870099DDAC /* Hexagon.swift */,
+				84C03D601AF9E2870099DDAC /* MainViewController.swift */,
+				84C03D611AF9E2870099DDAC /* MenuHeaderCell.swift */,
+				84C03D621AF9E2870099DDAC /* MenuItemCell.swift */,
+				84C03D631AF9E2870099DDAC /* MiddleView.swift */,
+				84C03D641AF9E2870099DDAC /* MyWalletViewController.swift */,
+				84C03D651AF9E2870099DDAC /* NormalNavigationBar.swift */,
+				84C03D661AF9E2870099DDAC /* NotificationCenterViewController.swift */,
+				84C03D671AF9E2870099DDAC /* PinSheetCenterViewController.swift */,
+				84C03D681AF9E2870099DDAC /* PinViewController.swift */,
+				84C03D691AF9E2870099DDAC /* PrivateDataViewController.swift */,
+				84C03D6A1AF9E2870099DDAC /* SettingViewController.swift */,
 				84C03D3B1AF9E1EB0099DDAC /* ViewController.swift */,
 				84C03D3D1AF9E1EB0099DDAC /* Main.storyboard */,
 				84C03D401AF9E1EB0099DDAC /* Images.xcassets */,
@@ -93,6 +187,26 @@
 		84C03D341AF9E1EB0099DDAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84C03D7D1AF9E2C30099DDAC /* 04earth.png */,
+				84C03D7E1AF9E2C30099DDAC /* 再拼一次.png */,
+				84C03D7F1AF9E2C30099DDAC /* again.png */,
+				84C03D801AF9E2C30099DDAC /* back.png */,
+				84C03D811AF9E2C30099DDAC /* backItem.png */,
+				84C03D821AF9E2C30099DDAC /* comment.png */,
+				84C03D831AF9E2C30099DDAC /* free-flat-halloween-icons-06.png */,
+				84C03D841AF9E2C30099DDAC /* free-flat-halloween-icons-86.png */,
+				84C03D851AF9E2C30099DDAC /* greenPoint.png */,
+				84C03D861AF9E2C30099DDAC /* hexagon.png */,
+				84C03D871AF9E2C30099DDAC /* ic_dh.png */,
+				84C03D881AF9E2C30099DDAC /* ic_plus.png */,
+				84C03D891AF9E2C30099DDAC /* mail-boxes.png */,
+				84C03D8A1AF9E2C30099DDAC /* menu.png */,
+				84C03D8B1AF9E2C30099DDAC /* privateData.png */,
+				84C03D8C1AF9E2C30099DDAC /* question.png */,
+				84C03D8D1AF9E2C30099DDAC /* setting.png */,
+				84C03D8E1AF9E2C30099DDAC /* titlebar_back_green.png */,
+				84C03D8F1AF9E2C30099DDAC /* titlebar_background.png */,
+				84C03D901AF9E2C30099DDAC /* yen.png */,
 				84C03D351AF9E1EB0099DDAC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,9 +309,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C03D971AF9E2C30099DDAC /* free-flat-halloween-icons-06.png in Resources */,
 				84C03D3F1AF9E1EB0099DDAC /* Main.storyboard in Resources */,
+				84C03D9E1AF9E2C30099DDAC /* menu.png in Resources */,
+				84C03D9D1AF9E2C30099DDAC /* mail-boxes.png in Resources */,
 				84C03D441AF9E1EB0099DDAC /* LaunchScreen.xib in Resources */,
+				84C03D931AF9E2C30099DDAC /* again.png in Resources */,
+				84C03D911AF9E2C30099DDAC /* 04earth.png in Resources */,
+				84C03D9B1AF9E2C30099DDAC /* ic_dh.png in Resources */,
+				84C03DA11AF9E2C30099DDAC /* setting.png in Resources */,
+				84C03D9A1AF9E2C30099DDAC /* hexagon.png in Resources */,
+				84C03DA21AF9E2C30099DDAC /* titlebar_back_green.png in Resources */,
+				84C03D961AF9E2C30099DDAC /* comment.png in Resources */,
+				84C03DA31AF9E2C30099DDAC /* titlebar_background.png in Resources */,
+				84C03D941AF9E2C30099DDAC /* back.png in Resources */,
 				84C03D411AF9E1EB0099DDAC /* Images.xcassets in Resources */,
+				84C03D9C1AF9E2C30099DDAC /* ic_plus.png in Resources */,
+				84C03D991AF9E2C30099DDAC /* greenPoint.png in Resources */,
+				84C03DA01AF9E2C30099DDAC /* question.png in Resources */,
+				84C03D981AF9E2C30099DDAC /* free-flat-halloween-icons-86.png in Resources */,
+				84C03D921AF9E2C30099DDAC /* 再拼一次.png in Resources */,
+				84C03D951AF9E2C30099DDAC /* backItem.png in Resources */,
+				84C03D9F1AF9E2C30099DDAC /* privateData.png in Resources */,
+				84C03DA41AF9E2C30099DDAC /* yen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +349,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C03D6B1AF9E2870099DDAC /* AboutUsViewController.swift in Sources */,
+				84C03D781AF9E2870099DDAC /* NotificationCenterViewController.swift in Sources */,
+				84C03D721AF9E2870099DDAC /* MainViewController.swift in Sources */,
+				84C03D771AF9E2870099DDAC /* NormalNavigationBar.swift in Sources */,
+				84C03D701AF9E2870099DDAC /* HeaderView.swift in Sources */,
+				84C03D7C1AF9E2870099DDAC /* SettingViewController.swift in Sources */,
+				84C03D6C1AF9E2870099DDAC /* AppConstant.swift in Sources */,
+				84C03D6F1AF9E2870099DDAC /* CheckSegue.swift in Sources */,
+				84C03D791AF9E2870099DDAC /* PinSheetCenterViewController.swift in Sources */,
+				84C03D7A1AF9E2870099DDAC /* PinViewController.swift in Sources */,
+				84C03D711AF9E2870099DDAC /* Hexagon.swift in Sources */,
 				84C03D3C1AF9E1EB0099DDAC /* ViewController.swift in Sources */,
+				84C03D741AF9E2870099DDAC /* MenuItemCell.swift in Sources */,
+				84C03D6E1AF9E2870099DDAC /* ChatViewController.swift in Sources */,
+				84C03D6D1AF9E2870099DDAC /* CarpoolHistoryCell.swift in Sources */,
+				84C03D731AF9E2870099DDAC /* MenuHeaderCell.swift in Sources */,
+				84C03D751AF9E2870099DDAC /* MiddleView.swift in Sources */,
 				84C03D371AF9E1EB0099DDAC /* AppDelegate.swift in Sources */,
 				84C03D3A1AF9E1EB0099DDAC /* ___.xcdatamodeld in Sources */,
+				84C03D7B1AF9E2870099DDAC /* PrivateDataViewController.swift in Sources */,
+				84C03D761AF9E2870099DDAC /* MyWalletViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
