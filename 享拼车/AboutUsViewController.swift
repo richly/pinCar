@@ -14,7 +14,7 @@ class AboutUsViewController: UIViewController {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
         self.view.backgroundColor = UIColor.whiteColor()
-        
+        initNavigationBarLeft("关于我们")
         var lab = UILabel(frame: CGRectMake(100, 100, 200, 100))
         lab.text = "AboutUsViewController"
         self.view.addSubview(lab)

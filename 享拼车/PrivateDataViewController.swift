@@ -14,7 +14,7 @@ class PrivateDataViewController: UIViewController {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
         self.view.backgroundColor = UIColor.whiteColor()
-        initNavigationBar("个人资料")
+        initNavigationBarLeft("个人资料")
         var lab = UILabel(frame: CGRectMake(100, 100, 200, 100))
         lab.text = "PrivateDataViewController"
         self.view.addSubview(lab)

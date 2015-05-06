@@ -14,7 +14,7 @@ class PinSheetCenterViewController: UIViewController {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
         self.view.backgroundColor = UIColor.whiteColor()
-        
+        initNavigationBarLeft("拼单中心")
         var lab = UILabel(frame: CGRectMake(100, 100, 200, 100))
         lab.text = "PinSheetCenterViewController"
         self.view.addSubview(lab)

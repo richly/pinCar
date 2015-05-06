@@ -14,7 +14,7 @@ class SettingViewController: UIViewController {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
         self.view.backgroundColor = UIColor.whiteColor()
-        
+        initNavigationBarLeft("设置")
         var lab = UILabel(frame: CGRectMake(100, 100, 200, 100))
         lab.text = "SettingViewController"
         self.view.addSubview(lab)

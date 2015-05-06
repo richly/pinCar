@@ -14,7 +14,7 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
         self.view.backgroundColor = UIColor.whiteColor()
-        initNavigationBar("侧田司机")
+        initNavigationBarLeft("侧田司机")
         // Do any additional setup after loading the view.
     }
 

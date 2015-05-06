@@ -14,7 +14,7 @@ class MyWalletViewController: UIViewController {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
         self.view.backgroundColor = UIColor.whiteColor()
-        initNavigationBar("")
+        initNavigationBarLeft("我的钱包")
         self.view.backgroundColor = UIColor.whiteColor()
         var lab = UILabel(frame: CGRectMake(100, 100, 200, 100))
         lab.text = "MyWalletViewController"

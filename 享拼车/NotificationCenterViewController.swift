@@ -14,7 +14,7 @@ class NotificationCenterViewController: UIViewController {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
         self.view.backgroundColor = UIColor.whiteColor()
-        
+        initNavigationBarLeft("通知中心")
         var lab = UILabel(frame: CGRectMake(100, 100, 200, 100))
         lab.text = "NotificationCenterViewController"
         self.view.addSubview(lab)

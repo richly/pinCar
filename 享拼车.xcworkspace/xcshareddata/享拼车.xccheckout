@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BE2C44F4-50B5-4883-AE7C-6E4ADA7F3102</string>
+	<key>IDESourceControlProjectName</key>
+	<string>享拼车</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9BF23DA38BEB74E22D475222198DEEC5D8D578D6</key>
+		<string>https://github.com/richly/pinCar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>享拼车.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9BF23DA38BEB74E22D475222198DEEC5D8D578D6</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/richly/pinCar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9BF23DA38BEB74E22D475222198DEEC5D8D578D6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9BF23DA38BEB74E22D475222198DEEC5D8D578D6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pinCar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
