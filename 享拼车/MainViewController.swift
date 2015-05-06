@@ -79,9 +79,6 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         historyTable.autoresizingMask = UIViewAutoresizing.FlexibleBottomMargin
         self.mainView.addSubview(historyTable)
         
-        println(historyTable.frame)
-        println(self.view.frame)
-        
         
         
         self.view.addSubview(mainView)

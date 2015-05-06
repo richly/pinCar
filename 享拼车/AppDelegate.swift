@@ -13,10 +13,15 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    func configAPIKey(){
+        MAMapServices.sharedServices().apiKey = AMapAPIKey
+        AMapNaviServices.sharedServices().apiKey = AMapAPIKey
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        configAPIKey()
         UIApplication.sharedApplication().setStatusBarStyle( UIStatusBarStyle.LightContent, animated: true)
         var rootNav = UINavigationController(rootViewController: MainViewController())
         rootNav.navigationBar.opaque = false

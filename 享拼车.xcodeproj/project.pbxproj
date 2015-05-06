@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		37F2A62D14E6D204B94AA82A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 663AA70CE8F12742A30616C5 /* libPods.a */; };
 		847DC34E1AFA2AA100163C0F /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 847DC34D1AFA2AA100163C0F /* back_button.png */; };
+		847DC35A1AFA503000163C0F /* PinSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DC3591AFA503000163C0F /* PinSelectCell.swift */; };
+		847DC35C1AFA57F200163C0F /* origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 847DC35B1AFA57F200163C0F /* origin.png */; };
+		847DC35E1AFA582000163C0F /* ic_sent.png in Resources */ = {isa = PBXBuildFile; fileRef = 847DC35D1AFA582000163C0F /* ic_sent.png */; };
+		847DC3601AFA582900163C0F /* ic_mb.png in Resources */ = {isa = PBXBuildFile; fileRef = 847DC35F1AFA582900163C0F /* ic_mb.png */; };
 		84C03D371AF9E1EB0099DDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D361AF9E1EB0099DDAC /* AppDelegate.swift */; };
 		84C03D3A1AF9E1EB0099DDAC /* ___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D381AF9E1EB0099DDAC /* ___.xcdatamodeld */; };
 		84C03D3C1AF9E1EB0099DDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03D3B1AF9E1EB0099DDAC /* ViewController.swift */; };
@@ -66,6 +70,11 @@
 		13BD0FBDA0AF8BAFB9BCB3FE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		663AA70CE8F12742A30616C5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		847DC34D1AFA2AA100163C0F /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		847DC3501AFA31F500163C0F /* 享拼车-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "享拼车-Bridging-Header.h"; sourceTree = "<group>"; };
+		847DC3591AFA503000163C0F /* PinSelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinSelectCell.swift; sourceTree = "<group>"; };
+		847DC35B1AFA57F200163C0F /* origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = origin.png; sourceTree = "<group>"; };
+		847DC35D1AFA582000163C0F /* ic_sent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_sent.png; sourceTree = "<group>"; };
+		847DC35F1AFA582900163C0F /* ic_mb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mb.png; sourceTree = "<group>"; };
 		84C03D311AF9E1EB0099DDAC /* 享拼车.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "享拼车.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C03D351AF9E1EB0099DDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C03D361AF9E1EB0099DDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +159,7 @@
 				84C03D681AF9E2870099DDAC /* PinViewController.swift */,
 				84C03D5C1AF9E2870099DDAC /* ChatViewController.swift */,
 				84C03D3B1AF9E1EB0099DDAC /* ViewController.swift */,
+				847DC3501AFA31F500163C0F /* 享拼车-Bridging-Header.h */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -157,13 +167,9 @@
 		843468861AF9FDEC00BCF0A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				84C03D5B1AF9E2870099DDAC /* CarpoolHistoryCell.swift */,
+				847DC3541AFA499200163C0F /* View */,
+				847DC3531AFA498800163C0F /* Cell */,
 				84C03D5D1AF9E2870099DDAC /* CheckSegue.swift */,
-				84C03D5E1AF9E2870099DDAC /* HeaderView.swift */,
-				84C03D5F1AF9E2870099DDAC /* Hexagon.swift */,
-				84C03D611AF9E2870099DDAC /* MenuHeaderCell.swift */,
-				84C03D621AF9E2870099DDAC /* MenuItemCell.swift */,
-				84C03D631AF9E2870099DDAC /* MiddleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -194,6 +200,27 @@
 				84C03D671AF9E2870099DDAC /* PinSheetCenterViewController.swift */,
 			);
 			name = Drawer;
+			sourceTree = "<group>";
+		};
+		847DC3531AFA498800163C0F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84C03D611AF9E2870099DDAC /* MenuHeaderCell.swift */,
+				84C03D621AF9E2870099DDAC /* MenuItemCell.swift */,
+				84C03D5B1AF9E2870099DDAC /* CarpoolHistoryCell.swift */,
+				847DC3591AFA503000163C0F /* PinSelectCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		847DC3541AFA499200163C0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C03D5E1AF9E2870099DDAC /* HeaderView.swift */,
+				84C03D5F1AF9E2870099DDAC /* Hexagon.swift */,
+				84C03D631AF9E2870099DDAC /* MiddleView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		84C03D281AF9E1EB0099DDAC = {
@@ -237,11 +264,14 @@
 			isa = PBXGroup;
 			children = (
 				84C03D7D1AF9E2C30099DDAC /* 04earth.png */,
+				847DC35D1AFA582000163C0F /* ic_sent.png */,
 				84C03D7F1AF9E2C30099DDAC /* again.png */,
 				847DC34D1AFA2AA100163C0F /* back_button.png */,
+				847DC35B1AFA57F200163C0F /* origin.png */,
 				84C03D821AF9E2C30099DDAC /* comment.png */,
 				84C03D831AF9E2C30099DDAC /* free-flat-halloween-icons-06.png */,
 				84C03D841AF9E2C30099DDAC /* free-flat-halloween-icons-86.png */,
+				847DC35F1AFA582900163C0F /* ic_mb.png */,
 				84C03D851AF9E2C30099DDAC /* greenPoint.png */,
 				84C03D861AF9E2C30099DDAC /* hexagon.png */,
 				84C03D871AF9E2C30099DDAC /* ic_dh.png */,
@@ -376,11 +406,14 @@
 				84C03D911AF9E2C30099DDAC /* 04earth.png in Resources */,
 				84C03D9B1AF9E2C30099DDAC /* ic_dh.png in Resources */,
 				84C03DA11AF9E2C30099DDAC /* setting.png in Resources */,
+				847DC35E1AFA582000163C0F /* ic_sent.png in Resources */,
 				84C03D9A1AF9E2C30099DDAC /* hexagon.png in Resources */,
 				84C03DA21AF9E2C30099DDAC /* titlebar_back_green.png in Resources */,
 				84C03D961AF9E2C30099DDAC /* comment.png in Resources */,
+				847DC3601AFA582900163C0F /* ic_mb.png in Resources */,
 				84C03DA31AF9E2C30099DDAC /* titlebar_background.png in Resources */,
 				84C03D411AF9E1EB0099DDAC /* Images.xcassets in Resources */,
+				847DC35C1AFA57F200163C0F /* origin.png in Resources */,
 				84C03D9C1AF9E2C30099DDAC /* ic_plus.png in Resources */,
 				84C03D991AF9E2C30099DDAC /* greenPoint.png in Resources */,
 				84C03DA01AF9E2C30099DDAC /* question.png in Resources */,
@@ -452,6 +485,7 @@
 				84C03D6E1AF9E2870099DDAC /* ChatViewController.swift in Sources */,
 				84C03D6D1AF9E2870099DDAC /* CarpoolHistoryCell.swift in Sources */,
 				84C03D731AF9E2870099DDAC /* MenuHeaderCell.swift in Sources */,
+				847DC35A1AFA503000163C0F /* PinSelectCell.swift in Sources */,
 				84C03D751AF9E2870099DDAC /* MiddleView.swift in Sources */,
 				84C03D371AF9E1EB0099DDAC /* AppDelegate.swift in Sources */,
 				84C03D3A1AF9E1EB0099DDAC /* ___.xcdatamodeld in Sources */,
@@ -582,9 +616,12 @@
 			baseConfigurationReference = 13BD0FBDA0AF8BAFB9BCB3FE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "享拼车/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "享拼车/享拼车-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -593,9 +630,11 @@
 			baseConfigurationReference = E4AA5537DEFF5799D8054AB8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "享拼车/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "享拼车/享拼车-Bridging-Header.h";
 			};
 			name = Release;
 		};

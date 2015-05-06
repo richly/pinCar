@@ -44,7 +44,6 @@ class CarpoolHistoryCell: UITableViewCell {
         originLabel = UILabel(frame: CGRectZero)
         originLabel.textColor = UIColor.blackColor()
         originLabel.font = UIFont.systemFontOfSize(13.0)
-////        originLabel.lineBreakMode = NSLineBreakMode.ByWordWrapping
         originLabel.numberOfLines = 0
         self.contentView.addSubview(originLabel)
         
